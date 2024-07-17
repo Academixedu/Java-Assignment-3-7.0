@@ -1,6 +1,6 @@
 public class Statics{
 // Create a Static method with return type String
- public String name(String n)
+ public static String name(String n)
  {
     return n;
  }
