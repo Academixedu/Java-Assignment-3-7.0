@@ -1,15 +1,15 @@
 public class ATM{
   double Balance=30000;
   public double Balance(double deposit,double Withdrawl){
-  double B=Withdrawl+deposit;
-    if(B>=Withdrawl){
-    double C=Balance-Withdrawl;
-  System.out.println("Balance is in "+C);
+  double value=Withdrawl+deposit;
+    if(value<=Withdrawl){
+    double Balance=Withdrawl-value;
+  System.out.println("Balance is in "+Balance);
   }
     else{
-    System.out.println("Balance in"+B);
+    System.out.println("Balance in"+value);
     }
-  return B;
+  return Balance;
   }
   public static void main(String[]args){
   ATM a=new ATM();
