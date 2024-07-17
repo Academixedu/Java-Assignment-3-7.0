@@ -4,7 +4,7 @@ public class ATM{
   Balance=Balance+deposit;
     if(Balance<=Withdrawl){
     Balance=Balance-Withdrawl;
-  System.out.println("Balance is in  +  value");
+  System.out.println("Balance is The  +  value");
   }
     else{
     System.out.println("Balance in"+" - "+" Value");
