@@ -6,8 +6,8 @@ public class ATM{
 
 
     if(Balance<=Withdrawl){
-     double val=Balance-Withdrawl;
-  System.out.println("Balance is in "+val);
+     Balance=Balance-Withdrawl;
+  System.out.println("Balance is in "+Balance);
   }
 
     else{
