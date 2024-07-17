@@ -4,7 +4,10 @@ public class ForLoop{
 // Find out the Error in for loop and correct it
 // assign the error to variable s and print out side for loop
  String s="";   
-for(int i=10;i>0;i--){
+for(int i=10;i>0;i++){
+  String s="error";
+}
+  for(int i=0;i<=10;i++){
 System.out.println("Hello World !!!!"+i);
 }
     System.out.println(s);
