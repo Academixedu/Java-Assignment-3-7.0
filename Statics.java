@@ -5,4 +5,7 @@ public class Statics{
     //Call the Method and Print the value of return type in output
     
   }
+  Public static String name(name ){
+    return name;
+  }
 }
