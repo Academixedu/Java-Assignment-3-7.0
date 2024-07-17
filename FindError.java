@@ -1,11 +1,12 @@
 public class FindError{
 public static int m1(int a,double b){
- a= (int)(a * b);
+ a= (int)(a*b);
   return a;
 }
   // Method must contain return 
 public static void main(String[]args){
 FindError f=new FindError();
-  f.m1(2,3);
+  f.m1(2,4);
+  System.out.println("Product is :"+m1(2, 4));
 }
 }
