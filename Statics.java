@@ -8,7 +8,7 @@ public String name(String n)
   public static void main(String[]args){
     Statics s=new Statics();
     String result=s.name("preetham");
-    System.out.println("My name"+result);
+    System.out.println("My name "+result);
     
   }
 }
