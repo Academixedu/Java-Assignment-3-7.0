@@ -1,7 +1,7 @@
 public class ATM{
   double Balance=30000;
   public double Balance(double deposit,double Withdrawl){
-  Balance=Balance+deposit
+  Balance=Balance+deposit;
     if(Balance<=withdrawl){
     Balance=Balance-withdrawl;
   System.out.println("Balance is in "+' + '+ " value");
