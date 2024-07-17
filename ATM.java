@@ -3,13 +3,13 @@ public class ATM{
   public double Balance(double deposit,double Withdrawl){
   Balance=Balance+deposit;
 
-    if(Balance<=Withdrawl)
+    if(Balance>=Withdrawl)
     {
       Balance=Balance-Withdrawl;
-      System.out.println("Balance is in "+ Balance + " value");
+      System.out.println("Balance in"+" + "+" Value");
   }
     else{
-    System.out.println("Balance in"+ Balance +" Value");
+    System.out.println("Balance in"+" - "+" Value");
     }
   return Balance;
   }
