@@ -6,10 +6,10 @@ public class ATM{
 
     if(Balance<=Withdrawl){
     Balance=Balance-Withdrawl;
-  System.out.println("Balance is in "+" + "+ " value");
+  System.out.println("Balance is in "+" - "+ " value");
   }
     else{
-    System.out.println("Balance in"+" - "+" Value");
+    System.out.println("Balance in"+" + "+" Value");
     }
   return Balance;
   }
